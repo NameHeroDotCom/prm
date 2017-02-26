@@ -14,3 +14,4 @@ curl -s https://raw.githubusercontent.com/NameHeroDotCom/prm/master/config/ignor
 curl -s https://raw.githubusercontent.com/NameHeroDotCom/prm/master/rules/imap.cmd > /usr/local/prm/rules/imap.cmd
 curl -s https://raw.githubusercontent.com/NameHeroDotCom/prm/master/rules/lsphp.cmd > /usr/local/prm/rules/lsphp.cmd
 curl -s https://raw.githubusercontent.com/NameHeroDotCom/prm/master/rules/pop3.cmd > /usr/local/prm/rules/pop3.cmd
+sed -i 's/setnice /#setnice /g' /usr/local/prm/prm
